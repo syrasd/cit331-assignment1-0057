@@ -6,6 +6,9 @@
 
 /* ---------- 2. Fonts and colors used in this website ---------- */
 body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
   font-family: "Poppins", Arial, sans-serif;
   font-size: 16px;
   line-height: 1.5;
@@ -69,6 +72,8 @@ ul {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/hero.jpg");
   background-size: cover;
   background-position: center;
+  text-align: center;
+  padding: 20px;
 }
 
 #club-name {
@@ -274,7 +279,9 @@ fieldset legend {
 footer{
   text-align: center;
   color: darkgray;
-  margin-top: 48px;
+  margin-top: auto;
+  padding-top: 48px;
+  padding-bottom: 16px;
 }
 /* ---------- 7. Responsive design ---------- */
 @media (max-width: 900px) {
