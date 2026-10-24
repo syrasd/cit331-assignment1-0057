@@ -99,7 +99,9 @@ ul {
   margin: 0 auto;
   padding: 50px 20px 120px;
 }
-
+.page-title-events {
+  margin-left: 200px;
+}
 .event-card {
   display: flex;
   flex-direction: column;
@@ -155,6 +157,7 @@ ul {
   color: #ffffff;
 }
 
+
 /* ---------- 6. Register page ---------- */
 .register-section {
   display: flex;
@@ -162,6 +165,9 @@ ul {
   padding: 10px 100px 40px 66px;
 }
 
+.page-title-register {
+  margin-left: 65px;
+}
 #register-form {
   flex: 0 0 40%;
   font-family: Arial, Helvetica, sans-serif;
@@ -301,6 +307,17 @@ footer{
 }
 
 @media (max-width: 700px) {
+  .page-title-events {
+  margin-left: 20px;   
+  margin-right: 20px;
+  font-size: 1.8rem;
+}
+
+.page-title-register {
+  margin-left: 24px;    
+  margin-right: 24px;
+  font-size: 1.8rem;
+}
   .site-header {
     flex-direction: column;
     justify-content: center;
