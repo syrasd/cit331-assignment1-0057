@@ -1,154 +1,155 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 /* ---------- 2. Fonts and colors used in this website ---------- */
 body {
-    font-family: "Poppins", Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
-    color: #000000;
-    background-color: #ffffff;
+  font-family: "Poppins", Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #000000;
+  background-color: #ffffff;
 }
 
 a {
-    color: inherit;
-    text-decoration: none;
+  color: inherit;
+  text-decoration: none;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
 
 /* ---------- 3. Styling Header and navigation ---------- */
 .site-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 95px;
-    padding: 0 100px 0 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 95px;
+  padding: 0 100px 0 24px;
 }
 
 .logo {
-    display: flex;
-    align-items: center;
-    font-size: 1rem;
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
 }
 
 .logo img {
-    height: 64px;
-    margin-right: 4px;
+  height: 64px;
+  margin-right: 4px;
 }
 
 .nav-list {
-    display: flex;
-    gap: 90px;
+  display: flex;
+  gap: 90px;
 }
 
 .nav-list a {
-    font-size: 1.1rem;
+  font-size: 1.1rem;
 }
 
 .nav-list a:hover,
 .nav-list a.active {
-    text-decoration: underline;
-    text-underline-offset: 6px;
+  text-decoration: underline;
+  text-underline-offset: 6px;
 }
 
 /* ---------- 4. Home page ---------- */
 .hero {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: #ffffff;
-    height: 30vw;
-    min-height: 280px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/hero.jpg");
-    background-size: cover;
-    background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  height: 30vw;
+  min-height: 280px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/hero.jpg");
+  background-size: cover;
+  background-position: center;
 }
 
 #club-name {
-    font-size: 2rem;
-    font-weight: 300;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
-    text-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+  font-size: 2rem;
+  font-weight: 300;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
 }
 
 .hero p {
-    font-size: 1rem;
-    font-weight: 300;
-    text-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
+  font-size: 1rem;
+  font-weight: 300;
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.3);
 }
 
 /* ---------- 5. Events page---------- */
 .events-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 100px 30px;
-    max-width: 900px;
-    margin: 0 auto;
-    padding: 50px 20px 120px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 100px 30px;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 50px 20px 120px;
 }
 
 .event-card {
-    display: flex;
-    flex-direction: column;
-    flex: 1 1 260px;
-    max-width: 280px;
-    font-family: "Archivo", Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 260px;
+  max-width: 280px;
+  font-family: "Archivo", Arial, sans-serif;
 }
 
 .event-card img {
-    width: 100%;
-    aspect-ratio: 8 / 5;
-    object-fit: cover;
-    margin-bottom: 8px;
+  width: 100%;
+  aspect-ratio: 8 / 5;
+  object-fit: cover;
+  margin-bottom: 8px;
 }
 
 .event-card h2 {
-    font-size: 0.9rem;
-    font-weight: 800;
-    line-height: 1.3;
+  font-size: 0.9rem;
+  font-weight: 800;
+  line-height: 1.3;
 }
 
 .event-info {
-    font-size: 0.65rem;
-    font-weight: 700;
-    letter-spacing: 0.02em;
-    text-transform: uppercase;
-    color: #aaaaaa;
-    margin: 6px 0;
+  font-size: 0.65rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  margin: 6px 0;
 }
 
 .event-text {
-    font-size: 0.8rem;
-    font-weight: 300;
-    color: #aaaaaa;
-    margin-bottom: 20px;
+  font-size: 0.8rem;
+  font-weight: 300;
+  color: #aaaaaa;
+  margin-bottom: 20px;
 }
 
 .btn {
-    display: block;
-    width: 110px;
-    margin-top: auto;
-    padding: 8px 0;
-    border: 2px solid #bbbbbb;
-    background-color: #ffffff;
-    font-family: "Archivo", Arial, sans-serif;
-    font-size: 0.8rem;
-    text-align: center;
+  display: block;
+  width: 110px;
+  margin-top: auto;
+  padding: 8px 0;
+  border: 2px solid #bbbbbb;
+  background-color: #ffffff;
+  font-family: "Archivo", Arial, sans-serif;
+  font-size: 0.8rem;
+  text-align: center;
 }
 
 .btn:hover {
-    border-color: #000000;
-    background-color: #000000;
-    color: #ffffff;
+  border-color: #000000;
+  background-color: #000000;
+  color: #ffffff;
 }
+
 /* ---------- 6. Register page ---------- */
 .register-section {
   display: flex;
@@ -275,7 +276,6 @@ footer{
   color: darkgray;
   margin-top: 48px;
 }
-
 /* ---------- 7. Responsive design ---------- */
 @media (max-width: 900px) {
   .site-header {
